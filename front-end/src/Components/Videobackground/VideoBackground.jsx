@@ -7,7 +7,7 @@ const VideoBackground = () => {
     <div className="video-background">
       <video autoPlay muted loop id="bg-video">
         <source src={assets.backgrond} type="video/mp4" />
-        Your browser does not support the video tag.
+       WELCOME 
       </video>
     </div>
   );
