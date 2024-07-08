@@ -1,5 +1,7 @@
-import background from './backgrond.mp4'
+import background from './backgrond.mp4';
 
-export const assets = {
+ const assets = {
     background
-}
+};
+
+export default assets;
