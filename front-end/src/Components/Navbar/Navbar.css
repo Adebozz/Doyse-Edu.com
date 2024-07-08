@@ -1,15 +1,58 @@
-.navbar{
+/* Navbar.css */
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    color: rgb(255, 255, 255);
-}
-
-.menu ul{
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .menu ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    color: #fff;
-}
+  }
+  
+  .menu ul li {
+    color: inherit; /* Inherit color from navbar */
+  }
+  
+  .toggle {
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+  }
+  
+  /* .toggle:hover {
+    background-color: #e0e0e0;
+  } */
+  
+  .Admin {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .Admin:hover {
+    background-color: #e0e0e0;
+  }
+  
