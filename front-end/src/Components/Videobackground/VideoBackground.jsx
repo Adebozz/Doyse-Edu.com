@@ -7,7 +7,7 @@ const VideoBackground = () => {
     <div className="video-background">
       <video autoPlay muted loop id="bg-video">
         <source src={assets.background} type="video/mp4" />
-       WELCOME 
+       WELCOME back
       </video>
     </div>
   );

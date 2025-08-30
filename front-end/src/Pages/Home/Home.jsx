@@ -9,7 +9,7 @@ const Home = () => {
       <VideoBackground />
       <Navbar />
       <div className="content">
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to Doyse Educational Consult</h1>
         <p>This is a sample text over the video background.</p>
       </div>
     </div>

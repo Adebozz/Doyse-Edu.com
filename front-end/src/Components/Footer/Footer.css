@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color: black;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
-    color: white;
+    color: #fff;
 }
 
 .footer-contain{
@@ -15,8 +15,18 @@
     align-items: center;
 }
 
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form form input{
+    margin-bottom: 3px;
+}
+
+
+
 .footered{
     display: flex;
-    align-items: center;
     justify-content: center;
 }

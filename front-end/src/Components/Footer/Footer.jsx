@@ -24,14 +24,15 @@ const Footer = () => {
                     <li>Instagram</li>
                     <li>Whatsapp</li>
                     <li>Email</li>
-                    <li></li>
+                    
                 </ul>
             </div>
             <div className="form">
                 <form action="get" method="get">
-                    <input type="text" placeholder='Name'/>
-                    <input type="email" name="" id="" />
-                    <input type="text" name="" id="content" />
+                    <h3>Have a question? </h3>
+                    Name: <input type="text" placeholder='Name'/>
+                    Email: <input type="email" name="" id="" />
+                    Question: <input type='text' name="" id="content" />
                     <button type="submit">Submit</button>
                 </form>
             </div>
